@@ -68,7 +68,7 @@ export default function NavTop() {
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >
-                    EVENTS
+                    SERVICES
                   </GenLink>
                 </NavItem>
                 <NavItem>
@@ -77,7 +77,7 @@ export default function NavTop() {
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >
-                    SHOWS
+                    KEY SPECIALITIES
                   </NavLinks>
                 </NavItem>
                 <NavItem>

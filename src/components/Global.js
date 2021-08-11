@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import Button from 'react-bootstrap/Button'
 import doc from '../images/doc.jpg'
 
 // general link
@@ -19,18 +20,14 @@ export const Space = styled.div`
   height: 80px;
 `
 
-// background attributes
+// background attributes for hopes
 export const Bg = styled.div`
   background-image: url(${doc});
   height: 50vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: grayscale(1);
   transition: all 0.8s ease-in-out;
-  &:hover {
-    filter: grayscale(0);
-  }
 `
 
 // show details
@@ -65,4 +62,19 @@ export const Container = styled.div`
   width: 80vw;
   margin-right: 10vw;
   margin-left: 10vw;
+`
+
+// buttons for hopes
+export const ConsultBtn = styled(Button)`
+  padding: 1rem 3rem;
+  margin: 1rem auto;
+  background-color: #003638;
+  border: 0;
+  &:hover {
+    background-color: #5b92e5;
+  }
+  @media only screen and (max-width: 568px) {
+    padding: 0.7rem 0rem;
+    width: 100%;
+  }
 `
