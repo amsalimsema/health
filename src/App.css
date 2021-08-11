@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* change bg onscroll */
+/* change bg onscroll for hopes */
 .MobileNav {
   height: 83px;
   position: fixed;
@@ -15,5 +15,5 @@ body {
   z-index: 999;
 }
 .MobileNav.active {
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: #003638;
 }

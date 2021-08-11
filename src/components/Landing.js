@@ -60,9 +60,9 @@ export default function Landing() {
               <h2>INTERNATIONAL PATIENT CARE</h2>
               <h5>
                 Access to advanced quality treatment at affordable cost with
-                personalized care globally has never been easier.
-                <strong>Health and Hopes Medicare</strong> will help you achieve
-                that seemlessly.
+                personalized care globally has never been easier.{''}
+                <strong> Health and Hopes Medicare</strong> will help you
+                achieve that seemlessly.
               </h5>
               <ConsultBtn>Request a Quote</ConsultBtn>
             </Col>

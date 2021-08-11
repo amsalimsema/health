@@ -128,13 +128,13 @@ export const NavBtnLink = styled(Link)`
   outline: none;
   margin-left: 3rem;
 `
-// drawer only
+// drawer only for hopes
 
 export const Drawer = styled.div`
+  margin-top: 3rem;
   text-align: start;
   padding-left: 1rem;
   color: #fff;
-  border-top: 1px dotted red;
   line-height: normal;
   @media only screen and (min-width: 769px) {
     display: none;

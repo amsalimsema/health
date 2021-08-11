@@ -64,7 +64,7 @@ export const Container = styled.div`
   margin-left: 10vw;
 `
 
-// buttons for hopes
+// landing button for hopes
 export const ConsultBtn = styled(Button)`
   padding: 1rem 3rem;
   margin: 1rem auto;
@@ -77,4 +77,10 @@ export const ConsultBtn = styled(Button)`
     padding: 0.7rem 0rem;
     width: 100%;
   }
+`
+// mobile drawer button for hopes
+export const ConsultBtnMob = styled(Button)`
+  background-color: #5b92e5;
+  border: 0;
+  padding: 0.7rem 0.7rem;
 `
