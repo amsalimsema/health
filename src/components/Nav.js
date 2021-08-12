@@ -102,12 +102,12 @@ export default function NavTop() {
 
                 <NavItem>
                   <NavLinks
-                    href="tel:+256782442281"
+                    href="tel:+256702891864"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >
                     <FaPhoneAlt />
-                    &nbsp;+256 782 442 281
+                    &nbsp;+256 702 891 864
                   </NavLinks>
                 </NavItem>
 
