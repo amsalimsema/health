@@ -35,7 +35,7 @@ export default function Findus() {
                 care abroad fast and seemlessly.
               </p>
             </Col>
-            <Col md={4}>
+            <Col md={6}>
               <p>
                 {' '}
                 <FaMapMarker style={{ color: '#fff' }} />
@@ -50,7 +50,7 @@ export default function Findus() {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0773538969
               </p>
             </Col>
-            <Col md={4} className="d-flex">
+            <Col md={2} className="d-flex">
               <a
                 href="https://wa.me/256702891864/?text=Hello Health And Hopes Medicare"
                 target="_blank"
