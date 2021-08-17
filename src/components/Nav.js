@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes, FaPhoneAlt } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
-import logo from '../logo.svg'
+import logo from '../logo192.png'
 import '../App.css'
 import { ConsultBtnMob } from './Global'
 

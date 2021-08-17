@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import styled from 'styled-components'
+import logo from '../logo192.png'
 import {
   FaMapMarker,
   FaPhoneAlt,
@@ -92,6 +93,13 @@ export default function Findus() {
               </a>
             </Col>
           </Row>
+          <p className="text-center">
+            <img
+              src={logo}
+              alt="logo"
+              style={{ height: '60px', width: '60px' }}
+            />
+          </p>
           <p className="text-center pt-3">
             &copy;{new Date().getFullYear()}&nbsp;Health And Hopes Medicare.
           </p>
