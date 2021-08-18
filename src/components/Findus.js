@@ -28,7 +28,7 @@ export default function Findus() {
       <Wrap fluid>
         <Footer>
           <Row>
-            <Col md={4}>
+            <Col md={5}>
               <h5>Health And Hopes Medicare</h5>
               <p>-&nbsp;International Patient Care&nbsp;-</p>
               <p>
@@ -36,7 +36,7 @@ export default function Findus() {
                 care abroad fast and seemlessly.
               </p>
             </Col>
-            <Col md={6}>
+            <Col md={4}>
               <p>
                 {' '}
                 <FaMapMarker style={{ color: '#fff' }} />
@@ -46,12 +46,18 @@ export default function Findus() {
               </p>
               <p>
                 <FaPhoneAlt style={{ color: '#fff' }} />
-                &nbsp;&nbsp;0702891864
+                &nbsp;&nbsp;0702 891 864
                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0773538969
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0773 538 969
+              </p>
+              <p>
+                <FaPhoneAlt style={{ color: '#fff' }} />
+                &nbsp;&nbsp;+211 918 718 411
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;South Sudan office
               </p>
             </Col>
-            <Col md={2} className="d-flex">
+            <Col md={3} className="d-flex">
               <a
                 href="https://wa.me/256702891864/?text=Hello Health And Hopes Medicare"
                 target="_blank"
@@ -93,7 +99,7 @@ export default function Findus() {
               </a>
             </Col>
           </Row>
-          <p className="text-center">
+          <p className="text-center pt-5">
             <img
               src={logo}
               alt="logo"
