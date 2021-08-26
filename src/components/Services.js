@@ -17,8 +17,8 @@ const Wrap = styled(Container)`
 export default function Services() {
   return (
     <>
-      <div className="py-5">
-        <h2 className="text-center">SERVICES</h2>
+      <div className="py-5 text-muted">
+        <h2 className="text-center font-weight-bold ">SERVICES</h2>
         <Wrap>
           <Row>
             <Col>

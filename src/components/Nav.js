@@ -64,17 +64,8 @@ export default function NavTop() {
                   </GenLink>
                 </NavItem>
                 <NavItem>
-                  <GenLink
-                    to="/"
-                    onClick={closeMobileMenu}
-                    style={{ textDecoration: 'none' }}
-                  >
-                    SERVICES
-                  </GenLink>
-                </NavItem>
-                <NavItem>
                   <NavLinks
-                    href="/"
+                    href="/#specialities"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >
@@ -83,16 +74,25 @@ export default function NavTop() {
                 </NavItem>
                 <NavItem>
                   <NavLinks
-                    href="/"
+                    href="/#services"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >
-                    ABOUT US
+                    SERVICES
                   </NavLinks>
                 </NavItem>
                 <NavItem>
                   <NavLinks
-                    href="/"
+                    href="/#hospitals"
+                    onClick={closeMobileMenu}
+                    style={{ textDecoration: 'none' }}
+                  >
+                    HOSPITALS
+                  </NavLinks>
+                </NavItem>
+                <NavItem>
+                  <NavLinks
+                    href="/#address"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >

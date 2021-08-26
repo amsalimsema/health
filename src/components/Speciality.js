@@ -27,9 +27,9 @@ const Wrap = styled(Container)`
 export default function Speciality() {
   return (
     <>
-      <div className="py-5">
+      <div className="py-5 text-muted">
         <h2 className="text-center">KEY SPECIALITIES</h2>
-        <Wrap>
+        <Wrap fluid>
           <section className="d-flex">
             <div className="text-center p-3 font-weight-bold">
               <img

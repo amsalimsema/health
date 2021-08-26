@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
 import doc from '../images/doc.jpg'
-import doc2 from '../images/doc2.jpg'
+// import doc2 from '../images/doc2.jpg'
 
 // general link
 
@@ -25,7 +25,7 @@ export const Bg = styled.div`
   background-size: cover;
   transition: all 0.8s ease-in-out;
   @media only screen and (max-width: 600px) {
-    background-image: url(${doc2});
+    filter: grayscale(1);
   }
 `
 

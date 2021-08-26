@@ -22,14 +22,14 @@ const LandingInfo = styled(Container)`
     h1 {
       font-size: 2rem;
       font-weight: 900;
-      color: #fff;
+      color: black;
     }
     h5 {
       margin: 0;
-      color: #fff;
+      color: black;
     }
     h2 {
-      color: #fff;
+      color: black;
     }
   }
   @media only screen and (min-width: 360px) and (max-width: 568px) {
@@ -37,14 +37,14 @@ const LandingInfo = styled(Container)`
     h1 {
       font-size: 2rem;
       font-weight: 900;
-      color: #fff;
+      color: #003638;
     }
     h5 {
       margin: 2rem auto;
-      color: #fff;
+      color: black;
     }
     h2 {
-      color: #fff;
+      color: black;
     }
   }
   @media only screen and (min-width: 1500px) {
