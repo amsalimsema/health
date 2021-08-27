@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import styled from 'styled-components'
 import { Bg, ConsultBtn } from './Global'
+import Button from 'react-bootstrap/Button'
+import Modal from 'react-bootstrap/Modal'
+import Quote from './Quote'
 
 const LandingBg = styled(Bg)`
   height: 100vh;
@@ -60,6 +63,10 @@ const LandingInfo = styled(Container)`
 `
 
 export default function Landing() {
+  const [show, setShow] = useState(false)
+
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
   return (
     <>
       <LandingBg>
@@ -74,7 +81,21 @@ export default function Landing() {
                 <strong> Health and Hopes Medicare</strong> will help you
                 achieve that seemlessly.
               </h5>
-              <ConsultBtn>Request a Quote</ConsultBtn>
+              <ConsultBtn onClick={handleShow}>Request a Quote</ConsultBtn>
+
+              <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                  <Modal.Title>Request Information</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Quote />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClose}>
+                    Cancel
+                  </Button>
+                </Modal.Footer>
+              </Modal>
             </Col>
             <Col md={4}></Col>
           </Row>
