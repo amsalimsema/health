@@ -28,7 +28,7 @@ export default function Findus() {
       <Wrap fluid>
         <Footer>
           <Row>
-            <Col md={5}>
+            <Col md={3}>
               <h5>Health And Hopes Medicare</h5>
               <p>-&nbsp;International Patient Care&nbsp;-</p>
               <p>
@@ -36,25 +36,42 @@ export default function Findus() {
                 care abroad fast and seemlessly.
               </p>
             </Col>
-            <Col md={4}>
+            <Col md={3}>
+              <p>UGANDA OFFICE:</p>
               <p>
-                {' '}
                 <FaMapMarker style={{ color: '#fff' }} />
                 &nbsp;&nbsp;Airtel House, Nansana
                 <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 3, Room F1 - 3
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next to JJ Medical Center
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hoima Road
               </p>
+
               <p>
                 <FaPhoneAlt style={{ color: '#fff' }} />
                 &nbsp;&nbsp;0702 891 864
                 <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0773 538 969
               </p>
+            </Col>
+            <Col md={3}>
+              <p>SOUTH SUDAN OFFICE:</p>
+              <p>
+                <FaMapMarker style={{ color: '#fff' }} />
+                &nbsp;&nbsp;Gudele 1
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opposite LOU Clinic
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rubek Road
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Juba City
+              </p>
+
               <p>
                 <FaPhoneAlt style={{ color: '#fff' }} />
                 &nbsp;&nbsp;+211 918 718 411
-                <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;South Sudan office
               </p>
             </Col>
             <Col md={3} className="d-flex">

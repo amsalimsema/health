@@ -92,6 +92,15 @@ export default function NavTop() {
                 </NavItem>
                 <NavItem>
                   <NavLinks
+                    href="/#aboutus"
+                    onClick={closeMobileMenu}
+                    style={{ textDecoration: 'none' }}
+                  >
+                    ABOUT US
+                  </NavLinks>
+                </NavItem>
+                <NavItem>
+                  <NavLinks
                     href="/#address"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}

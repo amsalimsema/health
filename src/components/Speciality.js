@@ -14,7 +14,7 @@ import radio from '../images/radiation.png'
 import child from '../images/heartc.png'
 import bone from '../images/bone.png'
 
-const Wrap = styled(Container)`
+export const Wrap = styled(Container)`
   cursor: pointer;
   width: 70vw;
 
