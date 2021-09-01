@@ -12,10 +12,16 @@ import fortis from '../images/fortis.png'
 import max from '../images/max.png'
 import narayana from '../images/narayana.jpg'
 import yoshida from '../images/yoshida.jpg'
+// new hospitals
+import global from '../images/global.jpg'
+import manipal from '../images/manipal.jpg'
+import maxcure from '../images/maxcure.png'
+import metro from '../images/metro.png'
+import sir from '../images/sir.png'
+import spinemasters from '../images/spinemasters.jpg'
 
 const Wrap = styled(Container)`
-  //text-align: center;
-
+  text-align: center;
   cursor: pointer;
 
   @media only screen and (max-width: 600px) {
@@ -72,6 +78,50 @@ export default function Hospital() {
               <p>
                 <img
                   src={artemis}
+                  alt="speciality"
+                  style={{ width: '210px' }}
+                />
+              </p>
+            </Col>
+          </Row>
+          {/* new hospitals */}
+
+          <Row>
+            <Col md={4}>
+              <p className="pb-3">
+                <img src={global} alt="speciality" style={{ width: '250px' }} />
+              </p>
+              <p className="pb-3">
+                <img
+                  src={manipal}
+                  alt="speciality"
+                  style={{ width: '210px' }}
+                />
+              </p>
+              <p className="pb-3">
+                <img
+                  src={maxcure}
+                  alt="speciality"
+                  style={{ width: '200px' }}
+                />
+              </p>
+            </Col>
+
+            <Col md={4}>
+              <p>
+                <img src={metro} alt="speciality" style={{ width: '220px' }} />
+              </p>
+              <p className="pb-5">
+                <img src={max} alt="speciality" style={{ width: '200px' }} />
+              </p>
+              <p>
+                <img src={sir} alt="speciality" style={{ width: '230px' }} />
+              </p>
+            </Col>
+            <Col md={4}>
+              <p className="pb-5">
+                <img
+                  src={spinemasters}
                   alt="speciality"
                   style={{ width: '210px' }}
                 />

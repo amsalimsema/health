@@ -4,9 +4,9 @@ import { Wrap } from './Speciality'
 export default function AboutUs() {
   return (
     <>
-      <Wrap>
-        <div className="py-5 text-muted">
-          <h2 className="text-center py-3">ABOUT HEALTH AND HOPES</h2>
+      <div className="py-5 text-muted">
+        <Wrap>
+          <h2 className="text-center">ABOUT HEALTH AND HOPES</h2>
           <p>
             Health and Hopes Medicare International is one of the fastest
             growing medical travel planner startups in Kampala, Uganda founded
@@ -37,8 +37,8 @@ export default function AboutUs() {
             details factoring in patients needs and preferences and availability
             of doctors to guarantee best price for the customer.
           </p>
-        </div>
-      </Wrap>
+        </Wrap>
+      </div>
     </>
   )
 }
