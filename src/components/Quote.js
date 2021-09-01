@@ -24,7 +24,7 @@ export default function Quote() {
         onSubmit={handleSubmit}
         name="health"
         target="_self"
-        action="https://formsubmit.co/salimsema@yahoo.com"
+        action="https://formsubmit.co/ 60463fb5c11ca4929a44b8dcc022a7c9"
         method="POST"
         id="health_form"
         autoComplete="off"
