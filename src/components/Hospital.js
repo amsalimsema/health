@@ -98,24 +98,22 @@ export default function Hospital() {
                   style={{ width: '210px' }}
                 />
               </p>
-              <p className="pb-3">
-                <img
-                  src={maxcure}
-                  alt="speciality"
-                  style={{ width: '200px' }}
-                />
-              </p>
             </Col>
 
             <Col md={4}>
               <p>
                 <img src={metro} alt="speciality" style={{ width: '220px' }} />
               </p>
-              <p className="pb-5">
-                <img src={max} alt="speciality" style={{ width: '200px' }} />
-              </p>
+
               <p>
                 <img src={sir} alt="speciality" style={{ width: '230px' }} />
+              </p>
+              <p className="pb-3">
+                <img
+                  src={maxcure}
+                  alt="speciality"
+                  style={{ width: '200px' }}
+                />
               </p>
             </Col>
             <Col md={4}>
